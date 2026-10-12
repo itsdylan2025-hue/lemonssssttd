@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "pickaxeanim",
+  "version": "${version}",
+  "name": "Pickaxe Anim",
+  "description": "Fast, enlarged pickaxe swing animation. Toggle with /toggle.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.pickaxeanim.PickaxeAnimClient"]
+  },
+  "mixins": ["pickaxeanim.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
